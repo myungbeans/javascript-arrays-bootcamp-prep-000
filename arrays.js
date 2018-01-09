@@ -28,7 +28,9 @@ function removeElementFromBeginningOfArray(array){
   let newArray = array.slice(1)
   return newArray
 }
-function destructivelyRemoveElementFromBeginningOfArray
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  return array.shift()
+}
 
 function accessElementInArray(array, index){
   return array[index]
