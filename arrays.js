@@ -9,12 +9,12 @@ function destructivelyAddElementToEndOfArray(array, element){
 }
 
 function addElementToBeginningOfArray(array, element){
-  return array.unshift(element)
+  let newArray = array
+  return [...element, newArray]
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  let newArray = array
-  return [...element, newArray]
+  return array.unshift(element)
 }
 
 function removeElementFromEndOfArray(array){
