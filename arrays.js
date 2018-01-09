@@ -4,6 +4,7 @@ function addElementToEndOfArray(array, element){
   let newArray = array.push(element)
   return newArray
 }
+
 function destructivelyAddElementToEndOfArray(array, element){
   return array.push(element)
 }
