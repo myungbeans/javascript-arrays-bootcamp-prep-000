@@ -9,7 +9,7 @@ function destructivelyAddElementToEndOfArray(array, element){
 }
 
 function addElementToBeginningOfArray(array, element){
-  let newArray = [element, ...array]
+  let newArray = array.unshift(element)
   return newArray
 }
 
