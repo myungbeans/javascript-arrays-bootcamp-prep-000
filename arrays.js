@@ -11,7 +11,7 @@ function destructivelyAddElementToEndOfArray(array, element){
 
 function addElementToBeginningOfArray(array, element){
   let newArray = array.slice()
-  return newArray.splice(0,0,element)
+  return newArray.unshift(element)
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
