@@ -1,7 +1,7 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 function addElementToEndOfArray(array, element){
-  let newArray = array.push(element)
+  let newArray = array.slice()
   return newArray
 }
 
