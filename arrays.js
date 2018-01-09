@@ -14,7 +14,8 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 
 function addElementToEndOfArray(array, element){
   let newArray = array.slice()
-  return newArray.push(element)
+  newArray.push(element)
+  return newArray
 }
 function destructivelyAddElementToEndOfArray(array, element){
   array.push(element)
